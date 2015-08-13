@@ -13,21 +13,15 @@ tags:
   - huguk
   - NoSql
 ---
-Last year at [Hadoop UK User Group Meetup][1], I gave a talk on use of Hadoop at [Datasift][2]. This was part of [Big Data Week][3], London, 2012. Below are the video and slides for that presentation.
+Last year at [Hadoop UK User Group Meetup](http://huguk.org/), I gave a talk on use of Hadoop at [Datasift](https://datasift.com). This was part of [Big Data Week](http://bigdataweek.com/), London, 2012. Below are the video and slides for that presentation.
 
-Although this presentation is now quite a bit out of date, it does mention some of important lessons we learnt using and managing a Hadoop eco-system. For a more recent presentation, see my [last post][4].
+Although this presentation is now quite a bit out of date, it does mention some of important lessons we learnt using and managing a Hadoop eco-system. For a more recent presentation, see my [last post](/2013/04/hadoop-at-datasift/).
 
-<div class="jetpack-video-wrapper">
-  <span class='embed-youtube' style='text-align:center; display: block;'></span>
-</div>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/xIP9J1TbO7E" frameborder="0" allowfullscreen></iframe>
 
-&nbsp;
+And here are the slides -
 
-<div class="jetpack-video-wrapper">
-  <div style="margin-bottom:5px">
-    <strong> <a href="https://www.slideshare.net/jairamc/hadoop-at-datasift" title="Hadoop at datasift" target="_blank">Hadoop at datasift</a> </strong> from <strong><a href="http://www.slideshare.net/jairamc" target="_blank">Jairam Chandar</a></strong>
-  </div>
-</div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/5pZvon41AOIrHs" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/jairamc/hadoop-at-datasift" title="Hadoop at datasift">Hadoop at datasift</a> </strong> from <strong><a href="//www.slideshare.net/jairamc">Jairam Chandar</a></strong> </div>
 
  [1]: http://huguk.org/
  [2]: http://www,datasift.com

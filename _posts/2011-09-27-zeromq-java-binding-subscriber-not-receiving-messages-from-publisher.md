@@ -14,6 +14,4 @@ While trying out the Java bindings for ZeroMQ, I came across this problem. Basic
 
 Read more about ZeroMQ at [http://www.zeromq.org/][1]
 
-&nbsp;
-
  [1]: http://www.zeromq.org/ "ZeroMQ"

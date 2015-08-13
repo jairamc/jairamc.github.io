@@ -9,4 +9,7 @@ twitter_username: jairamc
 github_username:  jairamc
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+
+gems:
+  - jemoji
