@@ -15,4 +15,6 @@ You can find me -
 
 I currently work as an Engineering Team Lead at [Datasift](https://datasift.com) where I deal with data warehousing solutions. Feel free to go through my [CV](/cv/).
 
+My main area of interest are distributed technologies. I have worked with [Hadoop](http://hadoop.apache.org), [Cassandra](http://cassandra.apache.org), [Kafka](http://kafka.apache.org), [Elasticsearch](https://www.elastic.co/products/elasticsearch), [Hive](http://hive.apache.org), and [HBase]((http://hbase.apache.org),).
+
 Thanks for taking the time to read my blog.
