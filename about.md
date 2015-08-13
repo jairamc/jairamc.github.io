@@ -4,8 +4,15 @@ title: About
 permalink: /about/
 ---
 
-I am currently working as an Engineering Team Lead at [Datasift](https://datasift.com) where I deal with data warehousing solutions. Feel free to go through my [curriculum vitae](/cv/).
+I'm a [programmer](https://xkcd.com/303/) living in [Reading, UK](https://en.wikipedia.org/wiki/Reading,_Berkshire). I'm also a [geek](http://dilbert.com/strip/2014-06-21) and proud to be one.
 
-I'm attempting to move my [blog](http://blog.jairam.me) from an overblown Wordpress installation to using Jekyll. If you have managed to find this site, please be aware that a lot of things may not work, things like links, formatting etc. Please go to the [original blog](http://blog.jairam.me) for a functioning blog for now.  
+You can find me -
 
-Thanks for taking your time to read my blog.
+- [twitter](https://twitter.com/jairamc)
+- [github](https://github.com/jairamc)
+- [linkedin](https://uk.linkedin.com/in/jairamc)
+- [instagram](https://instagram.com/jairam)
+
+I currently work as an Engineering Team Lead at [Datasift](https://datasift.com) where I deal with data warehousing solutions. Feel free to go through my [CV](/cv/).
+
+Thanks for taking the time to read my blog.
