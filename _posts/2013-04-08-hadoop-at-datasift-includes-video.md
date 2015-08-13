@@ -1,5 +1,5 @@
 ---
-title: 'Hadoop at Datasift &#8211; Includes video'
+title: Hadoop at Datasift - Includes video
 author: Jairam
 layout: post
 permalink: /2013/04/hadoop-at-datasift-includes-video/

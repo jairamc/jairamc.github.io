@@ -3,15 +3,6 @@ title: Using your own URL Shortener in Gwibber
 author: Jairam
 layout: post
 permalink: /2011/10/using-your-own-url-shortener-in-gwibber/
-yourls_tweeted:
-  - 1
-  - 1
-yourls_shorturl:
-  - http://url.jairam.me/20
-  - http://url.jairam.me/20
-original_post_id:
-  - 227
-  - 227
 categories:
   - Technology
 tags:

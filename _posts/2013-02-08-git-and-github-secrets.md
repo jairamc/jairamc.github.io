@@ -3,15 +3,6 @@ title: Git and Github Secrets
 author: Jairam
 layout: post
 permalink: /2013/02/git-and-github-secrets/
-jabber_published:
-  - 1360337982
-  - 1360337982
-publicize_twitter_user:
-  - jairamc
-  - jairamc
-publicize_reach:
-  - 'a:3:{s:7:"twitter";a:1:{i:2314105;i:306;}s:2:"fb";a:1:{i:2314101;i:487;}s:2:"wp";a:1:{i:0;i:2;}}'
-  - 'a:3:{s:7:"twitter";a:1:{i:2314105;i:306;}s:2:"fb";a:1:{i:2314101;i:487;}s:2:"wp";a:1:{i:0;i:2;}}'
 categories:
   - Technology
 tags:

@@ -1,14 +1,8 @@
 ---
-title: 'Scala in Eclipse using Maven &#8211; M2Eclipse connector'
+title: Scala in Eclipse using Maven &#8211; M2Eclipse connector
 author: Jairam
 layout: post
 permalink: /2011/09/scala-in-eclipse-using-maven-m2eclipse-connector/
-yourls_shorturl:
-  - http://url.jairam.me/11
-  - http://url.jairam.me/11
-original_post_id:
-  - 207
-  - 207
 categories:
   - Technology
 tags:

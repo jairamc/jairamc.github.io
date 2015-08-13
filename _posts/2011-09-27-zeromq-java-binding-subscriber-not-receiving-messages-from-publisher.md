@@ -1,14 +1,8 @@
 ---
-title: 'ZeroMQ Java Binding &#8211; Subscriber not receiving messages from Publisher'
+title: ZeroMQ Java Binding - Subscriber not receiving messages from Publisher
 author: Jairam
 layout: post
 permalink: /2011/09/zeromq-java-binding-subscriber-not-receiving-messages-from-publisher/
-yourls_shorturl:
-  - http://url.jairam.me/12
-  - http://url.jairam.me/12
-original_post_id:
-  - 217
-  - 217
 categories:
   - Technology
 tags:

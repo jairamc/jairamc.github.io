@@ -3,12 +3,6 @@ title: Fix skype for linux
 author: Jairam
 layout: post
 permalink: /2011/05/fix-skype-for-linux/
-yourls_shorturl:
-  - http://url.jairam.me/16
-  - http://url.jairam.me/16
-original_post_id:
-  - 156
-  - 156
 categories:
   - Technology
 tags:

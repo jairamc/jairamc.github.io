@@ -3,12 +3,6 @@ title: Introduction to Brisk
 author: Jairam
 layout: post
 permalink: /2011/05/introduction-to-brisk/
-yourls_shorturl:
-  - http://url.jairam.me/15
-  - http://url.jairam.me/15
-original_post_id:
-  - 151
-  - 151
 categories:
   - Technology
 tags:
@@ -27,8 +21,8 @@ tags:
 [Dave Gardner][5], my colleague at [VisualDNA][6], and I, decided to give it a run. We were truly impressed with its usefulness and ease of use. Dave gave a talk introducing Brisk at [CassandraLondon meetup ][7]. Here are the slides &#8211;
 
 <div style="width:425px;" id="__ss_7992824">
-  <strong style="display:block;margin:12px 0 4px;"><a href="http://www.slideshare.net/davegardnerisme/cassandra-hadoop-brisk" title="Cassandra + Hadoop = Brisk">Cassandra + Hadoop = Brisk</a></strong> 
-  
+  <strong style="display:block;margin:12px 0 4px;"><a href="http://www.slideshare.net/davegardnerisme/cassandra-hadoop-brisk" title="Cassandra + Hadoop = Brisk">Cassandra + Hadoop = Brisk</a></strong>
+
   <div style="padding:5px 0 12px;">
     View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/davegardnerisme">Dave Gardner</a>
   </div></p>
