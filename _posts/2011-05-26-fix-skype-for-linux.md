@@ -1,0 +1,29 @@
+---
+title: Fix skype for linux
+author: Jairam
+layout: post
+permalink: /2011/05/fix-skype-for-linux/
+yourls_shorturl:
+  - http://url.jairam.me/16
+  - http://url.jairam.me/16
+original_post_id:
+  - 156
+  - 156
+categories:
+  - Technology
+tags:
+  - Skype
+---
+*Update : Looks like someone in skype realized that they had not put in instructions for linux and have update their [page][1]. It&#8217;s the same as below.*
+
+A lot of us have been facing this issue that skype seems to just kill itself after you login. While skype issued a [temporary fix][1] today morning for Windows and Mac, they have conveniently forgotten to mention a solution for their linux client.
+
+Based on their solution for Windows, I managed to fix it for linux as well. Just quit skype and do the following &#8211;
+
+<pre>rm ~/.Skype/shared.xml</pre>
+
+And voila! Restart skype and it should work fine.
+
+Cheers!
+
+ [1]: http://heartbeat.skype.com/2011/05/problems_signing_into_skype_an.html
