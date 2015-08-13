@@ -2,9 +2,6 @@
 title: Curriculum Vitae
 author: Jairam
 layout: page
-original_post_id:
-  - 72
-  - 72
 permalink: /cv/
 ---
 <p style="text-align:left;">
