@@ -6,7 +6,7 @@ permalink: /cv/
 ---
 
 **Jairam Chandar**  
-Big Data Engineer  
+Engineering Team Lead   
 **t** [jairamc](http://twitter.com/jairamc)  
 **☛** [http://about.me/jairam](http://about.me/jairam)  
 
@@ -24,34 +24,43 @@ Big Data Engineer
 
 ## Technical Skills
 - Technologies
-  - **Hadoop**
-  - **Cassandra**
-  - **HBase**
+  - **[Hadoop][hadoop]**
+  - **[Cassandra][cassandra]**
+  - **[Kafka][kafka]**
+  - **[HBase][hbase]**
   - **Hive**
+  - [Elasticsearch][elasticsearch]
   - Java/J2EE
 - Languages
   - Java
   - Scala
   - C#
-  - C++
 
 - Platforms
   - **Unix/Linux**
   - Windows
+  - [Amazon Cloud][aws]
 
 ## Relevant Work Experience
 
 ### Mediasift Ltd. (trading as Datasift Inc.), Reading, UK
 (September 2011 - Present)
 
-#### Designation - Big Data Engineer
+#### Designation - Engineering Team Lead
 
-As part of the data-warehousing team at Datasift, primarily responsible for archiving, curating and retrieval of massive amounts of social data accumulated every day. The data is in the order of 2 TB/day. Technologies used include -
+Started in the company as a Big Data Engineer. As part of the data-warehousing team at Datasift, primarily responsible for archiving, curating and retrieval of massive amounts of social data accumulated every day. The data is in the order of 2 TB/day. Technologies used include -
 
-- Hadoop (Map Reduce / HDFS)
-- HBase
+- [Hadoop][hadoop] (Map Reduce / HDFS)
+- [HBase][hbase]
 
 Played a key role in development of Historics platform for mining archived social media data for customers.
+
+Was **promoted to Engineering Team Lead in late 2014**. Involved at important stages in design and development of
+the [PYLON for Facebook Topic Data][PYLON] product. Technologies used include -
+
+- [Kafka][kafka]
+- [Elasticsearch][elasticsearch]
+
 
 ### Imagini Europe Limited, London, UK
 (December 2010 - September 2011)
@@ -63,9 +72,9 @@ Working on Data Warehousing solutions using NoSql technologies. Key player in bu
 - Cassandra – Primary Data-store
   - Over 4 TB of data that is used for real-time access and analytics
 - Hadoop - Main analytics engine
-  - Played a major role in integrating and smooth functioning of the analytics cluster with the data-store. Primarily responsible for generating analytics data using Map/Reduce programs written in Java. Using the knowledge gained, gave a talk at a public meet-up. Podcast available at – <a href="http://skillsmatter.com/podcast/home/cassandra-meetup-march">http://skillsmatter.com/podcast/home/cassandra-meetup-march</a>.
+  - Played a major role in integrating and smooth functioning of the analytics cluster with the data-store. Primarily responsible for generating analytics data using Map/Reduce programs written in Java. Using the knowledge gained, gave a [talk][cassandra-podcast] at a public meet-up. Podcast available [here][cassandra-podcast]
 - Hive
-  - Most of the services hosted on the cloud, events system logs reside on Amazon S3. Responsible for running Hive queries over these logs using Amazon Elastic MapReduce.
+  - Most of the services hosted on the cloud, events system logs reside on [Amazon S3](http://aws.amazon.com/s3/). Responsible for running Hive queries over these logs using [Amazon Elastic MapReduce](http://aws.amazon.com/elasticmapreduce/).
 
 
 ## Relevant Education
@@ -88,7 +97,7 @@ Specialization Modules -
 
 Course work -
 
-- **Dissertation - Join algorithms using Map/Reduce** - Evaluated existing join algorithms used in contemporary systems that use Map/Reduce. Designed two new algorithms for multi-way joins. Properties like selectivity factor of a join were exploited in design of the algorithms. The project was implemented using **Hadoop** and **HDFS**. The coding was entirely done in Java. The evaluation was done based on speed-up, scale-up and network I/O. The thesis has been awarded distinction and is available for download from the University website at <a href="http://www.inf.ed.ac.uk/publications/thesis/online/IM100859.pdf">http://www.inf.ed.ac.uk/publications/thesis/online/IM100859.pdf</a>
+- **Dissertation - Join algorithms using Map/Reduce** - Evaluated existing join algorithms used in contemporary systems that use Map/Reduce. Designed two new algorithms for multi-way joins. Properties like selectivity factor of a join were exploited in design of the algorithms. The project was implemented using **[Hadoop][hadoop]** and **HDFS**. The coding was entirely done in Java. The evaluation was done based on speed-up, scale-up and network I/O. The thesis was awarded distinction and is available for [download][dissertation] from the University website [here][dissertation]
 - **Advanced Databases** - Extended the query engine of a home grown database to implement External Sort and Merge join algorithms. I managed to secure 100% in the coursework and the work was appreciated to be the best amongst the batch.
 - **Information Retrieval** - Developed a web crawler (using Python) capable of harvesting a set of hyper-linked news stories from a web-server. Implemented content-extraction algorithm using plateau-based method. Also implemented near-duplicate detection feature using SimHash algorithm. Also developed a system for searching images based on keywords (tags). Implemented exact-match, best-match and pseudo-relevance feedback algorithm.
 - **Querying and Storing XML** - Implemented an algorithm for updating XML via Relational Databases with 2 other collaborators. The project involved incrementally updating recursively stored XML, stored in an existing relational database, as opposed to previous approaches that shred the entire XML document into a newly created database of a newly designed schema.
@@ -101,7 +110,7 @@ Course work -
 
 #### Designation - Software Development Engineer
 
-All projects involved work on Microsoft Technology Stack. Almost all the coding was done in **C#** and all projects used **Visual Studio Team Suite**.
+All projects involved work on Microsoft Technology Stack. Almost all the coding was done in C# and all projects used Visual Studio Team Suite.
 
 ##  Previous Education
 
@@ -133,3 +142,13 @@ Responsibilities -
 Responsibilities-
 - Assisting the warden in maintaining discipline and decorum.
 - Organizing and managing social events for the residents.
+
+[hadoop]: http://hadoop.apache.org/
+[hbase]: http://hbase.apache.org/
+[cassandra]: http://cassandra.apache.org/
+[kafka]: http://kafka.apache.org/
+[elasticsearch]: https://www.elastic.co/products/elasticsearch
+[aws]: http://aws.amazon.com/
+[PYLON]: http://datasift.com/products/pylon-for-facebook-topic-data/
+[cassandra-podcast]: http://skillsmatter.com/podcast/home/cassandra-meetup-march
+[dissertation]: http://www.inf.ed.ac.uk/publications/thesis/online/IM100859.pdf
