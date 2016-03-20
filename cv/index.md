@@ -28,7 +28,7 @@ Engineering Team Lead
   - **[Cassandra][cassandra]**
   - **[Kafka][kafka]**
   - **[HBase][hbase]**
-  - **Hive**
+  - [Hive][hive]
   - [Elasticsearch][elasticsearch]
   - Java/J2EE
 - Languages
@@ -145,6 +145,7 @@ Responsibilities-
 
 [hadoop]: http://hadoop.apache.org/
 [hbase]: http://hbase.apache.org/
+[hive]: http://hive.apache.org/
 [cassandra]: http://cassandra.apache.org/
 [kafka]: http://kafka.apache.org/
 [elasticsearch]: https://www.elastic.co/products/elasticsearch
