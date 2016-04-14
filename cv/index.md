@@ -33,7 +33,7 @@ Engineering Team Lead
   - Java/J2EE
 - Languages
   - Java
-  - Scala
+  - **Scala**
   - C#
 
 - Platforms
