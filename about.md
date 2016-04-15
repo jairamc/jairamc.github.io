@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm a [programmer](https://xkcd.com/303/) living in [Reading, UK](https://en.wikipedia.org/wiki/Reading,_Berkshire). I'm also a [geek](http://dilbert.com/strip/2014-06-21) and proud to be one.
+I'm a [programmer](https://xkcd.com/303/) living in [London, UK](https://en.wikipedia.org/wiki/London). I'm also a [geek](http://dilbert.com/strip/2014-06-21) and proud to be one.
 
 You can find me -
 
