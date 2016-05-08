@@ -8,7 +8,7 @@ permalink: /cv/
 **Jairam Chandar**  
 Engineering Team Lead   
 **t** [jairamc](http://twitter.com/jairamc)  
-**☛** [http://about.me/jairam](http://about.me/jairam)  
+**☛** [http://jairam.me/about](http://jairam.me/about)  
 
 
 
