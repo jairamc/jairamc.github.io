@@ -6,7 +6,7 @@ permalink: /cv/
 ---
 
 **Jairam Chandar**  
-Engineering Team Lead   
+Platform Engineer  
 **t** [jairamc](http://twitter.com/jairamc)  
 **☛** [http://jairam.me/about](http://jairam.me/about)  
 
@@ -27,10 +27,11 @@ Engineering Team Lead
   - **[Hadoop][hadoop]**
   - **[Cassandra][cassandra]**
   - **[Kafka][kafka]**
-  - **[HBase][hbase]**
+  - [HBase][hbase]
   - [Hive][hive]
   - [Elasticsearch][elasticsearch]
   - Java/J2EE
+
 - Languages
   - Java
   - **Scala**
@@ -40,11 +41,20 @@ Engineering Team Lead
   - **Unix/Linux**
   - Windows
   - [Amazon Cloud][aws]
+  - Docker
 
 ## Relevant Work Experience
 
+### QuantumBlack Visual Analytics Ltd., London, UK
+(October 2016 - Present)
+
+#### Designation - Platform Engineer
+
+Joined the QuantumBlack Platform Team working to design and create backend systems that 
+support various Data Science solutions in the company.
+
 ### Mediasift Ltd. (trading as Datasift Inc.), Reading, UK
-(September 2011 - Present)
+(September 2011 - October 2016)
 
 #### Designation - Engineering Team Lead
 
