@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/jairamc
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jairam.me
+  * I am jairamc (https://keybase.io/jairamc) on keybase.
+  * I have a public key ASDH90X6-FniXaRsg0al0-W5Ns_bV8gqBWvc6RmV5xfw_wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01011da2a0d2c9bef8fcfbf18660d1aee9e29fe86840d5887fc491df220989888f9d0a",
+      "host": "keybase.io",
+      "kid": "0120c7f745faf859e25da46c8346a5d3e5b936cfdb57c82a056bdce91995e717f0ff0a",
+      "uid": "5b16a049aa985dbf10006e38f9655719",
+      "username": "jairamc"
+    },
+    "merkle_root": {
+      "ctime": 1511444837,
+      "hash": "779109f86fd6cbed76d35255197b9844a86c6dc23d820db65814bbd98164bbb3c51a67abf67da4e751cec3b4a088bd14b5ae8c3abb18831a6121f568eeb1d908",
+      "hash_meta": "a32ed646ee93e2b8233cc361222f9be4cce5483521c74d1c82ec9963fc7a6b00",
+      "seqno": 1738957
+    },
+    "service": {
+      "hostname": "jairam.me",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.36"
+  },
+  "ctime": 1511444848,
+  "expire_in": 504576000,
+  "prev": "04aa3ed49c5b43afb845bebbde839fbabae3075a33128af193a9587dd0e50782",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgx/dF+vhZ4l2kbINGpdPluTbP21fIKgVr3OkZlecX8P8Kp3BheWxvYWTFA0B7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMWRhMmEwZDJjOWJlZjhmY2ZiZjE4NjYwZDFhZWU5ZTI5ZmU4Njg0MGQ1ODg3ZmM0OTFkZjIyMDk4OTg4OGY5ZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYzdmNzQ1ZmFmODU5ZTI1ZGE0NmM4MzQ2YTVkM2U1YjkzNmNmZGI1N2M4MmEwNTZiZGNlOTE5OTVlNzE3ZjBmZjBhIiwidWlkIjoiNWIxNmEwNDlhYTk4NWRiZjEwMDA2ZTM4Zjk2NTU3MTkiLCJ1c2VybmFtZSI6ImphaXJhbWMifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MTE0NDQ4MzcsImhhc2giOiI3NzkxMDlmODZmZDZjYmVkNzZkMzUyNTUxOTdiOTg0NGE4NmM2ZGMyM2Q4MjBkYjY1ODE0YmJkOTgxNjRiYmIzYzUxYTY3YWJmNjdkYTRlNzUxY2VjM2I0YTA4OGJkMTRiNWFlOGMzYWJiMTg4MzFhNjEyMWY1NjhlZWIxZDkwOCIsImhhc2hfbWV0YSI6ImEzMmVkNjQ2ZWU5M2UyYjgyMzNjYzM2MTIyMmY5YmU0Y2NlNTQ4MzUyMWM3NGQxYzgyZWM5OTYzZmM3YTZiMDAiLCJzZXFubyI6MTczODk1N30sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJqYWlyYW0ubWUiLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjM2In0sImN0aW1lIjoxNTExNDQ0ODQ4LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjA0YWEzZWQ0OWM1YjQzYWZiODQ1YmViYmRlODM5ZmJhYmFlMzA3NWEzMzEyOGFmMTkzYTk1ODdkZDBlNTA3ODIiLCJzZXFubyI6MTAsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAtHyXd4VYrHhiTxM+W5LzR5+CFYPG1Azh8yaXiFuTfvCjk60q9tR6ea102mFAmIXttjRlyo/VregIXJGRkWohDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIB4DzZgNseKjoIeplkVKSFivzKSPQwPuZ3LEf1/YUTjqo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jairamc
+
+==================================================================
