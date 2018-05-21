@@ -11,5 +11,5 @@ github_username:  jairamc
 # Build settings
 # markdown: redcarpet
 
-gems:
+plugins:
   - jemoji
