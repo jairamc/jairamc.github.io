@@ -2,7 +2,6 @@
 title: Hive on Amazon EMR
 author: Jairam
 layout: post
-permalink: /2011/09/hive-on-amazon-emr/
 categories:
   - Technology
 tags:

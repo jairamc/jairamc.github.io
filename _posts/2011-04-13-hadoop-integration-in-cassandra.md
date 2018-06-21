@@ -2,7 +2,6 @@
 title: Hadoop Integration in Cassandra
 author: Jairam
 layout: post
-permalink: /2011/04/hadoop-integration-in-cassandra/
 categories:
   - Technology
 tags:

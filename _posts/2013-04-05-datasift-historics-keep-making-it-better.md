@@ -2,7 +2,6 @@
 title: Datasift Historics - Keep making it better!
 author: Jairam
 layout: post
-permalink: /2013/04/datasift-historics-keep-making-it-better/
 categories:
   - Technology
 tags:

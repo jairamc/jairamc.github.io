@@ -2,7 +2,6 @@
 title: Eclipse - How to get the exact command it executes on Run
 author: Jairam
 layout: post
-permalink: /2011/09/eclipse-how-to-get-the-exact-command-it-executes-on-run/
 categories:
   - Technology
 tags:

@@ -2,7 +2,6 @@
 title: Hadoop at Datasift - Includes video
 author: Jairam
 layout: post
-permalink: /2013/04/hadoop-at-datasift-includes-video/
 categories:
   - Technology
 tags:

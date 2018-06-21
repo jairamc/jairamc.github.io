@@ -2,7 +2,6 @@
 title: GitJira - Tool to use Git with Jira
 author: Jairam
 layout: post
-permalink: /2013/04/gitjira-tool-to-use-git-with-jira/
 categories:
   - Technology
 tags:

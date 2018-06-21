@@ -2,7 +2,6 @@
 title: Using your own URL Shortener in Gwibber
 author: Jairam
 layout: post
-permalink: /2011/10/using-your-own-url-shortener-in-gwibber/
 categories:
   - Technology
 tags:

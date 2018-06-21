@@ -2,7 +2,6 @@
 title: Introduction to Brisk
 author: Jairam
 layout: post
-permalink: /2011/05/introduction-to-brisk/
 categories:
   - Technology
 tags:

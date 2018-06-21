@@ -2,7 +2,6 @@
 title: Git and Github Secrets
 author: Jairam
 layout: post
-permalink: /2013/02/git-and-github-secrets/
 categories:
   - Technology
 tags:

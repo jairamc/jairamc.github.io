@@ -2,7 +2,6 @@
 title: Evolution of Hadoop support in Cassandra
 author: Jairam
 layout: post
-permalink: /2011/11/evolution-of-hadoop-support-in-cassandra/
 categories:
   - Technology
 tags:
