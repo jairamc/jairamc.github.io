@@ -2,6 +2,7 @@
 title: Install ArchLinux with Disk Encryption
 author: Jairam
 layout: post
+github_comments_issueid: "1"
 categories:
   - Technology
 tags:

@@ -8,6 +8,9 @@ url: "https://jairamc.github.io" # the base hostname & protocol for your site
 twitter_username: jairamc
 github_username:  jairamc
 
+# Set this to a github repository to be used to host comments.
+github_comments_repository: jairamc/blog-comments
+
 # Build settings
 # markdown: redcarpet
 
