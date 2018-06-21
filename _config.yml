@@ -1,5 +1,5 @@
 # Site settings
-title: Jairam's Blog
+title: Jairam Chandar
 author: Jairam Chandar
 email: contact@jairam.me
 description: Musings of a Software Engineer
@@ -13,3 +13,4 @@ github_username:  jairamc
 
 plugins:
   - jemoji
+  - jekyll-redirect-from
