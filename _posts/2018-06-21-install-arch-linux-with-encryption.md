@@ -9,6 +9,7 @@ tags:
   - archlinux
   - linux
   - installation-guides
+  - gnome
 ---
 
 To jump straight to the installation steps go to [Installation](#installation).
@@ -40,6 +41,11 @@ it up however you want. See the [Installation Guide](https://wiki.archlinux.org/
 
 Each of the section below starts with a link to the [Arch Wiki][archwiki] which has more details and further reading on
 the step. 
+
+### Disclaimer
+
+This is not an original piece of work. I researched from a few different sources and am collating here the steps that
+worked for me. Please see [references](#references) for the links I used as sources. 
 
 ### Installation Setup
 
@@ -76,13 +82,13 @@ are not signed
 
 > [Installation setup](https://wiki.archlinux.org/index.php/Installation_guide#Pre-installation)
 
-**Load Keymap**
+#### Load Keymap
 
 ```sh
 loadkeys uk
 ```
 
-**Setup Wifi**
+#### Setup Wifi
 
 Skip this step if you are on a wired connection. Otherwise:
 
@@ -94,13 +100,13 @@ iw dev
 wifi-menu -o <device name>
 ```
 
-**Setup NTP**
+#### Setup NTP
 
 ```sh
 timedatectl set-ntp true
 ```
 
-**Create Partitions**
+#### Create Partitions
 
 > [Partitioning](https://wiki.archlinux.org/index.php/Partitioning)
 
@@ -113,14 +119,14 @@ cgdisk /dev/sdX
 # 2. 100% size partiton # (to be encrypted) Hex code 8300
 ```
 
-**Format Partitions**
+#### Format Partitions
 
 ```sh
 mkfs.vfat -F32 /dev/sdX1
 mkfs.ext4 /dev/sdX2
 ```
 
-**Create Encypted Volumes**
+#### Create Encypted Volumes
 
 > [Encryption](https://wiki.archlinux.org/index.php/Dm-crypt/Encrypting_an_entire_system#LVM_on_LUKS)
 
@@ -146,7 +152,7 @@ mkfs.ext4 /dev/mapper/vg0-root
 mkswap /dev/mapper/vg0-swap
 ```
 
-**Mount Partitions**
+#### Mount Partitions
 
 ```sh
 mount /dev/mapper/vg0-root /mnt # /mnt is the installed system
@@ -165,7 +171,7 @@ pacstrap /mnt base base-devel grub-efi-x86_64 zsh vim git efibootmgr dialog wpa_
 
 ### Step 5: Setup OS
 
-**Generate an fstab file**
+#### Generate an fstab file
 
 ```sh
 genfstab -U /mnt >> /mnt/etc/fstab
@@ -173,20 +179,20 @@ genfstab -U /mnt >> /mnt/etc/fstab
 
 Its a good idea to check the contents of `/mnt/etc/fstab` at this point and make sure it looks all good. 
 
-**CHROOT into the new system**
+#### CHROOT into the new system
 
 ```sh
 arch-chroot /mnt /bin/bash
 ```
 
-**Setup system clock**
+#### Setup system clock
 
 ```sh
 ln -sf /usr/share/zoneinfo/Europe/London /etc/localtime
 hwclock --systohc
 ```
 
-**Setup Locale**
+#### Setup Locale
 
 Uncomment `en_GB.UTF-8 UTF-8` and other needed localizations in `/etc/locale.gen`, and generate them with:
 
@@ -206,7 +212,7 @@ Make your keyboard layout persistent
 echo KEYMAP=uk > /etc/vconsole.conf
 ```
 
-**Setup Network Configuration**
+#### Setup Network Configuration
 
 > [Networking](https://wiki.archlinux.org/index.php/Network_configuration)
 
@@ -224,7 +230,7 @@ Add matching entries in `/etc/hosts`
 127.0.1.1	MYHOSTNAME.localdomain	MYHOSTNAME
 ```
 
-**Setup User**
+#### Setup User
 
 At this point in the setup, you will be logged in as the `root` user. You should create a password for the `root` user.
 
@@ -240,7 +246,7 @@ useradd -m -g users -G wheel -s /bin/zsh MYUSERNAME
 passwd MYUSERNAME
 ```
 
-**Create a new `initramfs` image**
+#### Create a new `initramfs` image
 
 > [Configuring mkinitcpio for encrypted device](https://wiki.archlinux.org/index.php/Dm-crypt/Encrypting_an_entire_system#Configuring_mkinitcpio_3)
 
@@ -263,7 +269,7 @@ Generate the image.
 mkinitcpio -p linux
 ```
 
-**Configure bootloader**
+#### Configure bootloader
 
 > [Configure bootloader](https://wiki.archlinux.org/index.php/Dm-crypt/Encrypting_an_entire_system#Configuring_the_boot_loader_2)
 
@@ -298,9 +304,72 @@ umount -R /mnt
 reboot
 ```
 
-At this point you have a base installation of [ArchLinux][arch]
+At this point you have a base installation of [ArchLinux][arch]. Login you created a user account, use that, or 
+simply use the `root` credentials. It is not recommended to stick with `root` credential for a prolonged period of time. 
 
+### Step 7: Post Installation
+
+In the following steps, you will have to use `sudo` if you are not the `root` user. 
+
+#### Install PulseAudio Server
+
+> [PulseAudio](https://wiki.archlinux.org/index.php/PulseAudio)
+
+```sh
+pacman -Su pulseaudio pulseaudio-alsa
+```
+
+#### Install GNOME
+
+> [GNOME][gnome]
+
+```sh
+pacman -Su gnome
+```
+
+You can choose to install the `gnome-extra` package as well. See link above for details.
+
+The above is sufficient if you are planning to run [GNOME][gnome] on 
+[Wayland](https://wiki.archlinux.org/index.php/Wayland). However, if you want to use 
+[Xorg](https://wiki.archlinux.org/index.php/Xorg) as your display server, you need install it. 
+
+```sh
+pacman -Su xorg
+```
+
+[GNOME][gnome] automatically installs [GDM](https://wiki.archlinux.org/index.php/GDM) as the display manager. You do
+need to enable it in order for it to automatically start when you boot. 
+
+```sh
+systemctl enable gdm.server
+```
+
+#### Install NetworkManger
+
+[GNOME][gnome] uses [NetworkManger](https://wiki.archlinux.org/index.php/NetworkManager) in order to detect and connect
+to networks. While it is possible to use other tools for this purpose, [NetworkManager](https://wiki.archlinux.org/index.php/NetworkManager) is the most convenient. 
+
+```sh
+pacman -Su networkmanager
+```
+
+#### Optional Step: Install Firewall
+
+```sh
+pacman -Su ufw
+```
+
+And that's it. Just run `reboot` to restart your system. 
+
+## References
+
+- [Gist: Minimal instructions for installing arch linux on an UEFI system with full system encryption using dm-crypt and luks ](https://gist.github.com/mattiaslundberg/8620837)
+- [Gist: Installing Arch Linux on an LUKS Encrypted root and booting from UEFI](https://gist.github.com/Thrilleratplay/93d57dbab36dc4304cd8)
+- [Gist: Installing Arch with GPT, dm-crypt, LUKS, LVM and systemd-boot](https://gist.github.com/heppu/6e58b7a174803bc4c43da99642b6094b)
+- [Gist: Efficient Encrypted UEFI-Booting Arch Installation](https://gist.github.com/HardenedArray/31915e3d73a4ae45adc0efa9ba458b07)
+- All the [Arch Wiki][archwiki] links mentioned during the installation steps. 
 
 [arch]:https://archlinux.org
 [archwiki]:https://wiki.archlinux.org
 [ubuntu]:https://www.ubuntu.com/
+[gnome]:https://wiki.archlinux.org/index.php/GNOME
