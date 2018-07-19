@@ -18,7 +18,7 @@ To jump straight to the installation steps go to [Installation](#installation).
 ---
 
 So the other day I decided to finally take the plunge and install [ArchLinux][arch]. I have never really been
-a "disto-hopper". For the most part, I stuck with Ubuntu. Which to be fair served me pretty well. 
+a "distro-hopper". For the most part, I stuck with Ubuntu. Which to be fair served me pretty well. 
 
 A few years ago, I made the switch to OSX. And for a while, it was all nice and shiny. But after about 4 years of using
 OSX, I started to feel that there was a lot about the internals of my machine that I did not understand. And that brings
