@@ -1,10 +1,10 @@
 # Site settings
 title: Jairam Chandar
 author: Jairam Chandar
-email: contact@jairam.me
+email: contact@jairam.dev
 description: Musings of a Software Engineer
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://jairamc.github.io" # the base hostname & protocol for your site
+url: "https://jairam.dev" # the base hostname & protocol for your site
 twitter_username: jairamc
 github_username:  jairamc
 
