@@ -45,8 +45,30 @@ Platform Engineer
 
 ## Relevant Work Experience
 
+### Meltwater U.K. Ltd.
+(August 2018 - Present)
+
+#### Designation - Senior Software Engineer II - Cloud Architect
+
+Responsible for productionizing Artificial Intelligence algorithms designed for intelligently crawling and extracting editorial content from the Internet.
+Technologies involved:
+
+- AWS Cloud Stack - including, but not limited to:
+  - EC2
+  - ECS/ECR
+  - Lambda
+  - Step functions
+  - RDS
+  - Athena
+  - Route 53
+- Java
+- Docker
+- RabbitMQ
+- Dropwizard/Jersey REST
+- Terraform / Serverless Framework
+
 ### QuantumBlack Visual Analytics Ltd., London, UK
-(October 2016 - Present)
+(October 2016 - June 2018)
 
 #### Designation - Platform Engineer
 
