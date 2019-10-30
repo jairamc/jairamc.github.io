@@ -1,2 +1,2 @@
 # Personal Website
-Available at [jairamc.github.io](https://jairam.dev)
+Available at [jairam.dev](https://jairam.dev)
