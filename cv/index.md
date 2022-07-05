@@ -6,9 +6,8 @@ permalink: /cv/
 ---
 
 **Jairam Chandar**  
-Platform Engineer  
+Engineering Team Lead  
 **t** [jairamc](http://twitter.com/jairamc)  
-**☛** [http://jairam.me/about](http://jairam.me/about)  
 
 
 
