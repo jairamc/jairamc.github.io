@@ -4,7 +4,7 @@ Description: These are the musings of a software engineer when he can find some 
 ---
 
 I'm a [programmer](https://xkcd.com/303/) living in [Maidenhead, UK](https://en.wikipedia.org/wiki/Maidenhead). I'm also
-a [geek](http://dilbert.com/strip/2014-06-21) and proud to be one.
+a [geek](https://xkcd.com/747/) and proud to be one.
 
 I currently work as an Engineering Team Lead at [Meltwater](https://meltwater.com) where I help my team design cloud 
 based solutions for crawling and annotating the unstructured world of the Internet.
