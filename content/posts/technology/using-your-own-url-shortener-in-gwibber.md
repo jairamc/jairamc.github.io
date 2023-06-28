@@ -13,6 +13,10 @@ tags:
 - url.jairam.me
 title: Using your own URL Shortener in Gwibber
 ---
+{{< badge >}}
+Obsolete Post
+{{< /badge >}}
+
 After starting to use my own URL shortner service (see (http://url.jairam.me)), the next thing I wanted to do was to try and get it integrated into Gwibber (see (http://www.gwibber.com)). Turns out its really simple to do it. I'll advice you to do this while Gwibber is not running.
 
 **Assumptions**

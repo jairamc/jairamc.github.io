@@ -12,6 +12,9 @@ tags:
 - NoSql
 title: Evolution of Hadoop support in Cassandra
 ---
+{{< badge >}}
+Obsolete Post
+{{< /badge >}}
 Below is a compilation of all changes that were made in the Cassandra code base related to Hadoop support. The source for this compilation is [Apache Cassandra - CHANGES.txt](http://svn.apache.org/repos/asf/cassandra/trunk/CHANGES.txt). I have tried my best to avoid any misses or mistakes. In case you notice something amiss, please drop in a comment and I will fix it.
 
 ## 1.0.1

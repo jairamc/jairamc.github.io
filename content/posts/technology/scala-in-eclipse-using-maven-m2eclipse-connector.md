@@ -11,6 +11,9 @@ tags:
 - scala
 title: Scala in Eclipse using Maven &#8211; M2Eclipse connector
 ---
+{{< badge >}}
+Obsolete Post
+{{< /badge >}}
 While playing around with building Scala projects using Maven in Eclipse, I ran into a few problems. I solved these using the steps mentioned below.
 
 Assumptions -

@@ -15,6 +15,9 @@ tags:
 - NoSql
 title: Introduction to Brisk
 ---
+{{< badge >}}
+Obsolete Post
+{{< /badge >}}
 [Datastax](http://www.datastax.com) recently came out with a \*distribution\* (I am not completely sure I want to call it a distribution) called [Brisk](http://www.datastax.com/brisk). It is a slick combination of [Cassandra](http://cassandra.apache.org)'s tested real-time response and [Hadoop](http://hadoop.apache.org/)'s bigdata analytical capabilities.
 
 [Dave Gardner](http://davegardner.me.uk/), my colleague at [VisualDNA](http://www.visualdna.com), and I, decided to give it a run. We were truly impressed with its usefulness and ease of use. Dave gave a talk introducing Brisk at [CassandraLondon meetup ](http://www.meetup.com/Cassandra-London/). Here are the slides -
