@@ -13,8 +13,12 @@ author: Jairam
 - Awarded **Masters in Computer Science** with Distinction from the University of Edinburgh
 - M.Sc. dissertation involved work on Join-Algorithms using **Hadoop**.
 
+
 ## Technical Skills
-- Technologies
+
+{{% columns %}}
+
+#### Technologies
   - [Hadoop][hadoop]
   - [Cassandra][cassandra]
   - [Kafka][kafka]
@@ -22,15 +26,20 @@ author: Jairam
   - [Hive][hive]
   - [Elasticsearch][elasticsearch]
 
-- Languages
+<--->
+
+#### Languages
   - Java
   - Scala
-  - C#
 
-- Platforms
+<--->
+
+#### Platforms
   - Unix/Linux
   - [Amazon AWS][aws]
   - Docker
+
+{{% /columns %}}
 
 ## Relevant Work Experience
 
