@@ -6,6 +6,23 @@ baseURL = "https://jairam.dev/"
 theme = "congo"
 defaultContentLanguage = "en"
 
+googleAnalytics = "G-XNWQN8VKCR"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+  [privacy.disqus]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
+
 enableRobotsTXT = true
 paginate = 10
 summaryLength = 0
