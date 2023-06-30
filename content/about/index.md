@@ -4,6 +4,8 @@ date: 2015-08-13
 lastmod: 2023-06-20
 author: Jairam
 showComments: false
+aliases:
+  - cv
 ---
 
 ## Professional and Academic Highlights
