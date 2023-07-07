@@ -4,13 +4,9 @@ categories:
 - Technology
 date: "2011-10-01T00:00:00Z"
 tags:
-- bit.ly
 - Gwibber
 - tinyurl
 - twitter
-- URL
-- URL Shortner
-- url.jairam.me
 title: Using your own URL Shortener in Gwibber
 ---
 {{< badge >}}

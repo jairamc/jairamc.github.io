@@ -9,7 +9,6 @@ tags:
 - Hadoop
 - HBase
 - HDFS
-- Historics
 - NoSql
 - Scheduling
 title: Datasift Historics - Keep making it better!

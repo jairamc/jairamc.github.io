@@ -6,7 +6,6 @@ date: "2011-09-26T00:00:00Z"
 tags:
 - eclipse
 - m2e
-- m2e-scala
 - maven
 - scala
 title: Scala in Eclipse using Maven &#8211; M2Eclipse connector

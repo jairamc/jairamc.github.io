@@ -4,7 +4,6 @@ categories:
 - Technology
 date: "2011-09-27T00:00:00Z"
 tags:
-- debug
 - eclipse
 - java
 - scala

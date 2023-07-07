@@ -5,13 +5,9 @@ categories:
 date: "2011-05-17T00:00:00Z"
 tags:
 - Bigdata
-- Brisk
 - Cassandra
-- Cassandra Analytics
-- CassandraLondon
 - DataStax
 - Hadoop
-- Hadoop Analytics
 - NoSql
 title: Introduction to Brisk
 ---

@@ -5,11 +5,8 @@ categories:
 date: "2011-09-08T00:00:00Z"
 tags:
 - Amazon
-- Amazon EMR
 - Bigdata
-- EMR
 - Hadoop
-- Hadoop Analytics
 - Hive
 - NoSql
 title: Hive on Amazon EMR

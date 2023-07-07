@@ -6,9 +6,7 @@ date: "2011-11-08T00:00:00Z"
 tags:
 - Bigdata
 - Cassandra
-- CassandraLondon
 - Hadoop
-- Hadoop Analytics
 - NoSql
 title: Evolution of Hadoop support in Cassandra
 ---

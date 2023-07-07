@@ -6,14 +6,9 @@ date: "2011-04-13T00:00:00Z"
 tags:
 - BigData
 - Cassandra
-- Cassandra Analytics
-- CassandraLondon
 - Database
-- Distributed Database
 - Hadoop
-- Hadoop Analytics
 - NoSql
-- Technology London
 title: Hadoop Integration in Cassandra
 ---
 A month back I had given a talk at [Cassandra-London](http://twitter.com/cassandralondon) on Hadoop integration in Cassandra. Here are the slides for the same -

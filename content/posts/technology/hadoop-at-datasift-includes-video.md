@@ -5,10 +5,8 @@ categories:
 date: "2013-04-08T00:00:00Z"
 tags:
 - Bigdata
-- bigdataweek
 - Datasift
 - Hadoop
-- huguk
 - NoSql
 title: Hadoop at Datasift - Includes video
 ---
