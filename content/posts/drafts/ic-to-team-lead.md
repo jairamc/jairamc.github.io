@@ -2,7 +2,7 @@
 author: Jairam
 categories:
 - Leadership
-date: "2013-04-05T00:00:00Z"
+date: "2023-07-11T00:00:00Z"
 tags:
 - Leadership
 title: Individual Contributor to Team Lead
