@@ -8,7 +8,7 @@ title = "Jairam Chandar"
 [params]
   isoCode = "en"
   displayName = "EN"
-  rtl = false
+  languageDirection = "ltr"
 
   dateFormat = "2 January 2006"
 

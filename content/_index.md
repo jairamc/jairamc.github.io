@@ -9,4 +9,4 @@ a [geek](https://xkcd.com/747/) and proud to be one.
 I currently work as an Engineering Team Lead at [Meltwater](https://meltwater.com) where I help my team design cloud 
 based solutions for crawling and annotating the unstructured world of the Internet.
 
-My main area of interest are distributed technologies. I have worked with [Hadoop](http://hadoop.apache.org), [Cassandra](http://cassandra.apache.org), [Kafka](http://kafka.apache.org), [Elasticsearch](https://www.elastic.co/products/elasticsearch), [Hive](http://hive.apache.org), and [HBase]((http://hbase.apache.org),).
+My main area of interest are distributed technologies. I have worked with [Hadoop](http://hadoop.apache.org), [Cassandra](http://cassandra.apache.org), [Kafka](http://kafka.apache.org), [Elasticsearch](https://www.elastic.co/products/elasticsearch), [Hive](http://hive.apache.org), and [HBase](http://hbase.apache.org).
