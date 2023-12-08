@@ -2,3 +2,5 @@ _site
 .sass-cache
 **/_gen
 .hugo_build.lock
+
+.idea
