@@ -4,7 +4,7 @@
 
 baseURL = "https://jairam.dev/"
 theme = "congo"
-defaultContentLanguage = "en"
+languageCode = "en"
 
 enableRobotsTXT = true
 paginate = 10

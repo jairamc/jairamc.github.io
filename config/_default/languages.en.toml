@@ -3,7 +3,7 @@ languageName = "English"
 weight = 1
 
 title = "Jairam Chandar"
-# copyright = "Copy, _right?_ :thinking_face:"
+copyright = "&copy; 2024 Jairam Chandar"
 
 [params]
   isoCode = "en"
@@ -15,7 +15,7 @@ title = "Jairam Chandar"
   # mainSections = ["section1", "section2"]
   description = "Musings of a Software Engineer"
 
-[author]
+[params.author]
   name = "Jairam Chandar"
   image = "img/author.png"
   headline = "Just this guy, you know! Staring at a screen and clanking on a keyboard."
