@@ -3,4 +3,9 @@ _site
 **/_gen
 .hugo_build.lock
 
+# Don't commit the `public` folder, it is created by HUGO during deployment
+# It will get generated locally when running `hugo server`
+public
+
 .idea
+*.iml
