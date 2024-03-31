@@ -4,7 +4,7 @@ categories:
 - Technology
 date: "2011-05-26T00:00:00Z"
 tags:
-- Skype
+- skype
 title: Fix skype for linux
 ---
 {{< badge >}}

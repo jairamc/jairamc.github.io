@@ -4,11 +4,11 @@ categories:
 - Technology
 date: "2011-09-08T00:00:00Z"
 tags:
-- Amazon
-- Bigdata
-- Hadoop
-- Hive
-- NoSql
+- aws
+- bigdata
+- hadoop
+- hive
+- nosql
 title: Hive on Amazon EMR
 ---
 There are quite a few resources out there that can help you with running Hive on Amazon EMR. I decided to write this more as a reference for myself than anything else. But I do hope it helps people out there.

@@ -4,11 +4,11 @@ categories:
 - Technology
 date: "2011-04-13T00:00:00Z"
 tags:
-- BigData
-- Cassandra
-- Database
-- Hadoop
-- NoSql
+- bigdata
+- cassandra
+- database
+- hadoop
+- nosql
 title: Hadoop Integration in Cassandra
 ---
 A month back I had given a talk at [Cassandra-London](http://twitter.com/cassandralondon) on Hadoop integration in Cassandra. Here are the slides for the same -

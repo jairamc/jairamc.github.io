@@ -4,8 +4,8 @@ categories:
 - Technology
 date: "2013-02-08T00:00:00Z"
 tags:
-- Git
-- Github
+- git
+- github
 title: Git and Github Secrets
 ---
 Following are notes that I took from the video at <http://zachholman.com/talk/git-github-secrets/>. I highly recommend watching that video if you are a git/github user.

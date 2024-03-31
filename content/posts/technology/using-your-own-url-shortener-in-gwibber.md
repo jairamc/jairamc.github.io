@@ -4,7 +4,7 @@ categories:
 - Technology
 date: "2011-10-01T00:00:00Z"
 tags:
-- Gwibber
+- gwibber
 - tinyurl
 - twitter
 title: Using your own URL Shortener in Gwibber

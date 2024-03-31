@@ -7,7 +7,7 @@ github_comments_issueid: "1"
 tags:
 - archlinux
 - linux
-- installation-guides
+- guides
 - gnome
 title: Install ArchLinux with Disk Encryption
 ---

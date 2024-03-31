@@ -4,10 +4,10 @@ categories:
 - Technology
 date: "2013-04-05T00:00:00Z"
 tags:
-- Git
-- Github
-- Jira
-- Python
+- git
+- github
+- jira
+- python
 title: GitJira - Tool to use Git with Jira
 ---
 A lot of us use Git to maintain our code-base. And a lot of companies out there, like mine, use Jira for project management. A nice feature of Jira is the [Git Version Control Viewer](https://marketplace.atlassian.com/plugins/com.xiplink.jira.git.jira_git_plugin), which lets one track all the commits made against a ticket. The catch being, you have to mention the ticket number in your commits.  While this is not that big a deal, it gave me an idea for a simple project I could write to learn python.
