@@ -7,7 +7,7 @@ theme = "congo"
 languageCode = "en"
 
 enableRobotsTXT = true
-paginate = 10
+pagination.pagerSize = 10
 summaryLength = 0
 
 [outputs]
