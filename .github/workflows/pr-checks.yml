@@ -74,4 +74,6 @@ jobs:
         run: hugo --gc --minify --panicOnWarning
 
       - name: Check internal links in generated HTML
-        run: npx -y lychee@0.15.1 --offline --no-progress --exclude-mail "public/**/*.html"
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --offline --no-progress --exclude-mail "public/**/*.html"
