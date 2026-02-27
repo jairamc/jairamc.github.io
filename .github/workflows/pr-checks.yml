@@ -1,0 +1,77 @@
+name: PR Checks
+
+on:
+  pull_request:
+    branches: ["master"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pr-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate Content and Build
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.150.0
+      HUGO_ENVIRONMENT: production
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Hugo CLI
+        run: |
+          wget -O "$RUNNER_TEMP/hugo.deb" "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i "$RUNNER_TEMP/hugo.deb"
+
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+
+      - name: Install Node.js dependencies
+        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+
+      - name: Validate front matter delimiters
+        run: |
+          set -euo pipefail
+          failures=0
+          while IFS= read -r -d '' file; do
+            first_line="$(head -n 1 "$file")"
+            case "$first_line" in
+              '---'|'+++')
+                delimiter="$first_line"
+                ;;
+              *)
+                echo "::error file=$file::Missing YAML/TOML front matter start delimiter (--- or +++)"
+                failures=1
+                continue
+                ;;
+            esac
+
+            if ! awk -v d="$delimiter" 'NR > 1 && $0 == d { found=1; exit } END { exit(found ? 0 : 1) }' "$file"; then
+              echo "::error file=$file::Missing closing front matter delimiter $delimiter"
+              failures=1
+            fi
+          done < <(find content -type f -name '*.md' -print0)
+
+          exit "$failures"
+
+      - name: Lint Markdown
+        run: npx -y markdownlint-cli@0.39.0 -c .markdownlint.json "README.md" "AGENTS.md" "content/**/*.md"
+
+      - name: Build with Hugo
+        run: hugo --gc --minify --panicOnWarning
+
+      - name: Check internal links in generated HTML
+        run: npx -y lychee@0.15.1 --offline --no-progress --exclude-mail "public/**/*.html"
