@@ -1,63 +1,69 @@
 # -- Theme Options --
-# These options control how the theme functions and allow you to
-# customise the display of your website.
-#
 # Refer to the theme docs for more details about each of these parameters.
-# https://jpanther.github.io/congo/docs/configuration/#theme-parameters
+# https://blowfish.page/docs/configuration/
 
-colorScheme = "ocean"
-defaultAppearance = "light" # valid options: light or dark
+colorScheme = "slate"
+defaultAppearance = "dark"
 autoSwitchAppearance = true
+defaultBackgroundImage = "img/hero.svg"
 
 enableSearch = true
-enableCodeCopy = false
+enableCodeCopy = true
 enableImageLazyLoading = true
 
-# robots = ""
 fingerprintAlgorithm = "sha256"
 
 [header]
-  layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
-  # logo = "img/logo.jpg"
-  # logoDark = "img/dark-logo.jpg"
-  showTitle = true
+  layout = "fixed"
 
 [footer]
   showCopyright = true
-  showThemeAttribution = true
+  showThemeAttribution = false
   showAppearanceSwitcher = true
   showScrollToTop = true
 
 [homepage]
-  layout = "profile" # valid options: page, profile, custom
-  showRecent = false
-  recentLimit = 5
+  layout = "background"
+  homepageImage = "img/hero.svg"
+  showRecent = true
+  showRecentItems = 6
+  showMoreLink = true
+  showMoreLinkDest = "/posts/"
+  cardView = true
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = true
 
 [article]
+  showHero = true
+  heroStyle = "background"
+  layoutBackgroundHeaderSpace = false
   showDate = true
   showDateUpdated = true
-  showAuthor = true
-  showBreadcrumbs = false
+  showAuthor = false
+  showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
-  # editURL = "https://github.com/username/repo/"
-  editAppendPath = true
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
   showReadingTime = true
-  showTableOfContents = false
-  showTaxonomies = false
+  showTableOfContents = true
+  showTaxonomies = true
   showWordCount = false
   showComments = true
-  sharingLinks = ["facebook", "twitter", "mastodon", "reddit", "linkedin", "email"]
+  showSummary = true
+  showRelatedContent = true
+  relatedContentLimit = 3
+  sharingLinks = ["linkedin", "twitter", "reddit", "email"]
 
 [list]
   showBreadcrumbs = false
-  showSummary = false
+  showSummary = true
   showTableOfContents = false
-  showTaxonomies = false
+  showTaxonomies = true
   groupByYear = true
+  showCards = true
+  cardView = true
   paginationWidth = 1
 
 [sitemap]
@@ -65,10 +71,6 @@ fingerprintAlgorithm = "sha256"
 
 [taxonomy]
   showTermCount = true
-
-[fathomAnalytics]
-  # site = "ABC12345"
-  # domain = "llama.yoursite.com"
 
 [verification]
   # google = ""
