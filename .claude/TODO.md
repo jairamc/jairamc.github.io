@@ -18,7 +18,7 @@
 - [ ] Add Open Graph images for social sharing
 
 ## Cleanup
-- [ ] Add Hugo aliases to archive posts to redirect old /posts/... URLs
+- [x] ~~Add Hugo aliases to archive posts to redirect old /posts/... URLs~~ — all 14 posts have aliases
 - [ ] Verify RSS feed only includes posts/, not archive/
 - [ ] Configure a comments provider (showComments is enabled but no provider set)
 - [ ] Merge blowfish-migration branch to master when ready
