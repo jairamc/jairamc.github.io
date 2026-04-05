@@ -5,7 +5,7 @@
 - [ ] Update author photo (img/author.png)
 - [x] ~~Update favicons in static/~~ — JC monogram favicon generated from SVG
 - [x] ~~Consider hiding Categories and Tags from nav~~ — commented out in menus.en.toml
-- [ ] Custom 404 page (Blowfish supports this)
+- [x] ~~Custom 404 page~~ — custom layout with personality and navigation buttons
 
 ## Analytics
 - [ ] Set up Fathom or Plausible analytics (Blowfish has built-in support, just needs site ID in params.toml)
