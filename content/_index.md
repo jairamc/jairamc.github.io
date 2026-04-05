@@ -1,12 +1,12 @@
 ---
-Title: Welcome to my website
-Description: These are the musings of a software engineer when he can find some time
+title: Jairam Chandar
+description: Engineering leadership, distributed systems, and building teams that ship. By Jairam Chandar.
 ---
 
-I'm a [programmer](https://xkcd.com/303/) living in [Maidenhead, UK](https://en.wikipedia.org/wiki/Maidenhead). I'm also
-a [geek](https://xkcd.com/747/) and proud to be one.
+I lead multiple software engineering teams at [Meltwater](https://meltwater.com), where we build cloud-scale systems that crawl and make sense of the internet. Most days, the internet cooperates. The rest of the time, it’s a reminder that it's all held together with hope and retries.
 
-I currently work as an Engineering Manager at [Meltwater](https://meltwater.com) where I help my team design cloud 
-based solutions for crawling and annotating the unstructured world of the Internet.
+Before I started spending my days in 1:1s and strategy docs, I spent 15+ years working on distributed systems with Hadoop, Kafka, Cassandra, Elasticsearch, and the kind of infrastructure that fails in ways that are both surprising and, in hindsight, inevitable.
 
-My main area of interest are distributed technologies. I have worked with [Hadoop](http://hadoop.apache.org), [Cassandra](http://cassandra.apache.org), [Kafka](http://kafka.apache.org), [Elasticsearch](https://www.elastic.co/products/elasticsearch), [Hive](http://hive.apache.org), and [HBase](http://hbase.apache.org).
+I write here about the things I'm figuring out along the way: managing engineers without micromanaging them, making technical decisions when you're no longer the one writing the code, and occasionally wondering if monitoring dashboards counts as a hobby. 
+
+*Practical over polished. Honest over impressive.*

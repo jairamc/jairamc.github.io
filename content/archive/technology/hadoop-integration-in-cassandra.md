@@ -1,15 +1,9 @@
 ---
 author: Jairam
-categories:
-- Technology
 date: "2011-04-13T00:00:00Z"
-tags:
-- bigdata
-- cassandra
-- database
-- hadoop
-- nosql
 title: Hadoop Integration in Cassandra
+aliases:
+  - /posts/technology/hadoop-integration-in-cassandra/
 ---
 A month back I had given a talk at [Cassandra-London](http://twitter.com/cassandralondon) on Hadoop integration in Cassandra. Here are the slides for the same -
 

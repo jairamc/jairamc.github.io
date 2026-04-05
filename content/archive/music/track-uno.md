@@ -1,11 +1,9 @@
 ---
 author: Jairam
-categories:
-- Music
 date: "2012-03-04T00:00:00Z"
-tags:
-- soundcloud
 title: Track Uno
+aliases:
+  - /posts/music/track-uno/
 ---
 Having some time at my hand over the weekend, I decided to try out [Garage Band](http://www.apple.com/ilife/garageband/). The last time I tried to compose music was almost a decade ago.
 

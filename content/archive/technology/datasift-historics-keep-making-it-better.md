@@ -1,17 +1,9 @@
 ---
 author: Jairam
-categories:
-- Technology
 date: "2013-04-05T00:00:00Z"
-tags:
-- bigdata
-- datasift
-- hadoop
-- hbase
-- hdfs
-- nosql
-- scheduling
 title: Datasift Historics - Keep making it better!
+aliases:
+  - /posts/technology/datasift-historics-keep-making-it-better/
 ---
 _I recently wrote a post for our company's [developer blog](http://dev.datasift.com/blog). Below is a reproduction of the same._
 
