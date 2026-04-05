@@ -13,6 +13,8 @@ enableImageLazyLoading = true
 
 fingerprintAlgorithm = "sha256"
 
+replyByEmail = true
+
 [header]
   layout = "fixed"
 

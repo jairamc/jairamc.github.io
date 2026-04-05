@@ -2,7 +2,7 @@ languageCode = "en"
 languageName = "English"
 weight = 1
 
-title = "Jairam Chandar"
+title = "Home"
 copyright = "&copy; 2026 Jairam Chandar"
 
 [params]
@@ -17,6 +17,7 @@ copyright = "&copy; 2026 Jairam Chandar"
 
 [params.author]
   name = "Jairam Chandar"
+  email = "contact@jairam.dev"
   image = "img/author.png"
   headline = "Engineering Manager · Distributed Systems · Building teams that ship at scale"
   bio = "Engineering Manager at Meltwater"
@@ -25,4 +26,5 @@ copyright = "&copy; 2026 Jairam Chandar"
     { linkedin = "https://uk.linkedin.com/in/jairamc" },
     { mastodon = "https://mastodon.social/@voltaicracer" },
     { keybase = "https://keybase.io/jairamc" },
+    { email = "mailto:contact@jairam.dev" },
   ]
