@@ -3,8 +3,8 @@
 ## Visual / Content
 - [ ] Publish the tech debt blog post (full draft in ~/Downloads/jairam-brand-context.md)
 - [ ] Update author photo (img/author.png)
-- [ ] Update favicons in static/
-- [ ] Consider hiding Categories and Tags from nav until more posts exist (only 2 current posts)
+- [x] ~~Update favicons in static/~~ — JC monogram favicon generated from SVG
+- [x] ~~Consider hiding Categories and Tags from nav~~ — commented out in menus.en.toml
 - [ ] Custom 404 page (Blowfish supports this)
 
 ## Analytics
