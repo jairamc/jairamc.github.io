@@ -20,7 +20,7 @@ The skill accepts two arguments separated by a space:
 - `/md2pdf ./README.md ./README.pdf`
 
 If no arguments are provided, default to:
-- Input: `/Users/jairam/workspace/personal/cv.md`
+- Input: `/Users/jairam/obsidian/Notes/04 Craft/cv.md`
 - Output: `/Users/jairam/workspace/personal/jairamc.github.io/static/cv.pdf`
 
 ## How to execute
