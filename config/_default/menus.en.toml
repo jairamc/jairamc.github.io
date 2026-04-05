@@ -10,15 +10,16 @@
   pageRef = "about"
   weight = 20
 
-[[main]]
-  name = "Categories"
-  pageRef = "categories"
-  weight = 30
+# Disabled until we have more posts
+# [[main]]
+#   name = "Categories"
+#   pageRef = "categories"
+#   weight = 30
 
-[[main]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 40
+# [[main]]
+#   name = "Tags"
+#   pageRef = "tags"
+#   weight = 40
 
 [[main]]
   name = "Archive"
