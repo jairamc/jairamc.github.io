@@ -1,10 +1,6 @@
 ---
 author: Jairam
-categories:
-- Technology
 date: "2011-05-26T00:00:00Z"
-tags:
-- skype
 title: Fix skype for linux
 ---
 {{< badge >}}

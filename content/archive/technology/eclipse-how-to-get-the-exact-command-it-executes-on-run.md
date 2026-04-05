@@ -1,12 +1,6 @@
 ---
 author: Jairam
-categories:
-- Technology
 date: "2011-09-27T00:00:00Z"
-tags:
-- eclipse
-- java
-- scala
 title: Eclipse - How to get the exact command it executes on Run
 ---
 While trying to run a Scala/Java mix project, I ran into a problem where Eclipse was successfully able to launch my program, whereas when I tried to launch the same program from the command-line, I faced one problem after another. After a lot of search-fix-find-new-problem cycles, I decided to find out exactly what was the command eclipse was launching. Obviously, Google to my rescue. I found this thread - <http://stackoverflow.com/questions/1989419/eclipse-is-there-a-way-to-get-eclipse-to-output-the-commands-given-to-run-your-p>

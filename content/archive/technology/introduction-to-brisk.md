@@ -1,13 +1,6 @@
 ---
 author: Jairam
-categories:
-- Technology
 date: "2011-05-17T00:00:00Z"
-tags:
-- bigdata
-- cassandra
-- hadoop
-- nosql
 title: Introduction to Brisk
 ---
 {{< badge >}}
