@@ -74,6 +74,10 @@ replyByEmail = true
 [taxonomy]
   showTermCount = true
 
+[umamiAnalytics]
+  websiteid = "2135045f-f5f7-47c1-a722-1dde5d6aa8b0"
+  domain = "cloud.umami.is"
+
 [verification]
   # google = ""
   # bing = ""
