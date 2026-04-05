@@ -8,6 +8,7 @@ tags:
 - leadership
 - career
 title: Senior Engineer to Engineering Manager
+description: "The transition from senior IC to engineering manager at Meltwater. What changed, what I got wrong, and what I'd tell someone considering the same move."
 canonicalUrl: https://underthehood.meltwater.com/blog/2026/03/05/senior-engineer-to-engineering-manager/
 ---
 

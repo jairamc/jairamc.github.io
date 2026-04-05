@@ -9,6 +9,7 @@ tags:
 - linux
 - guides
 title: Install ArchLinux with Disk Encryption
+description: "Step-by-step guide to installing Arch Linux with full disk encryption using LUKS and LVM, including UEFI boot setup."
 ---
 
 To jump straight to the installation steps go to [Installation](#installation).
