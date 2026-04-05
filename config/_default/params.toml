@@ -75,8 +75,9 @@ replyByEmail = true
   showTermCount = true
 
 [umamiAnalytics]
-  websiteid = "2135045f-f5f7-47c1-a722-1dde5d6aa8b0"
-  domain = "cloud.umami.is"
+  websiteid = "a4253a81-df64-434a-8d9c-0828ec4b7631"
+  domain = "umami-production-aa32.up.railway.app"
+  scriptName = "getInfo.js"
 
 [verification]
   # google = ""
