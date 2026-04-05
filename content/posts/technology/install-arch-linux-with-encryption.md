@@ -8,7 +8,6 @@ tags:
 - archlinux
 - linux
 - guides
-- gnome
 title: Install ArchLinux with Disk Encryption
 ---
 
