@@ -2,6 +2,8 @@
 author: Jairam
 date: "2011-09-26T00:00:00Z"
 title: Scala in Eclipse using Maven &#8211; M2Eclipse connector
+aliases:
+  - /posts/technology/scala-in-eclipse-using-maven-m2eclipse-connector/
 ---
 {{< badge >}}
 Obsolete Post

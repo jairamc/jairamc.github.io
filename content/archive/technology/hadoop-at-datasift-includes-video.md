@@ -2,6 +2,8 @@
 author: Jairam
 date: "2013-04-08T00:00:00Z"
 title: Hadoop at Datasift - Includes video
+aliases:
+  - /posts/technology/hadoop-at-datasift-includes-video/
 ---
 Last year at [Hadoop UK User Group Meetup](http://huguk.org/), I gave a talk on use of Hadoop at [Datasift](https://datasift.com). This was part of [Big Data Week](http://bigdataweek.com/), London, 2012. Below are the video and slides for that presentation.
 

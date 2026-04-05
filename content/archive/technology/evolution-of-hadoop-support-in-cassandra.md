@@ -2,6 +2,8 @@
 author: Jairam
 date: "2011-11-08T00:00:00Z"
 title: Evolution of Hadoop support in Cassandra
+aliases:
+  - /posts/technology/evolution-of-hadoop-support-in-cassandra/
 ---
 {{< badge >}}
 Obsolete Post

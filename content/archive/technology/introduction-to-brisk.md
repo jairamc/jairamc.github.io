@@ -2,6 +2,8 @@
 author: Jairam
 date: "2011-05-17T00:00:00Z"
 title: Introduction to Brisk
+aliases:
+  - /posts/technology/introduction-to-brisk/
 ---
 {{< badge >}}
 Obsolete Post

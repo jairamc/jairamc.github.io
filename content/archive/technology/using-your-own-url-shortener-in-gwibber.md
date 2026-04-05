@@ -2,6 +2,8 @@
 author: Jairam
 date: "2011-10-01T00:00:00Z"
 title: Using your own URL Shortener in Gwibber
+aliases:
+  - /posts/technology/using-your-own-url-shortener-in-gwibber/
 ---
 {{< badge >}}
 Obsolete Post

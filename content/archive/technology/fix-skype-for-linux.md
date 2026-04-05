@@ -2,6 +2,8 @@
 author: Jairam
 date: "2011-05-26T00:00:00Z"
 title: Fix skype for linux
+aliases:
+  - /posts/technology/fix-skype-for-linux/
 ---
 {{< badge >}}
 Obsolete Post
