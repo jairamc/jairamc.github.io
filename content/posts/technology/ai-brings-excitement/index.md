@@ -34,7 +34,7 @@ With that shift comes a subtle but important change in energy. The excitement of
 
 ![AI-driven programming workspace](ai-driven-programming-workspace.png)
 
-Then AI shows up, and something shifts. Not everything, but enough to change how it feels to work again.
+AI has shifted something here. Not everything, but enough to change how it feels to work again.
 
 The biggest change isn’t just speed. It’s access. AI reduces the friction that accumulates over years of working across systems, tools, and domains. It removes many of the small but persistent barriers that slow you down and pull you out of flow.
 
@@ -48,7 +48,7 @@ With AI in the loop, a lot of the cognitive overhead starts to fade. The shift i
 
 **Deep investigations have compressed dramatically.** The kind of work that involved stitching together logs, reading library code, and slowly building a mental model still requires thought, but AI acts like a tireless research assistant. You’re still solving the problem, just without the drag.
 
-**Documentation has also lost its weight.** Requirements docs, post-mortems, and technical briefs can be scaffolded instantly. The thinking and judgment are still mine, but the effort to get started is gone.
+**Documentation has become easy.** Requirements docs, post-mortems, and technical briefs can be scaffolded instantly. The thinking and judgment are still mine, but the effort to get started is gone.
 
 And **I can build things I couldn’t before.** I’ve always been comfortable with APIs but weak on UI, which meant most internal tools stopped at a CLI or Swagger page. Now I can put a functional interface in front of an API in an afternoon. Not polished, but usable, and that alone changes who can benefit from what I build.
 
